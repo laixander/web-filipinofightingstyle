@@ -10,8 +10,7 @@
 
             <div class="mx-auto max-w-6xl">
                 <UCarousel v-slot="{ item }" loop dots :autoplay="{ delay: 2000 }" :items="testimonials"
-                    :ui="{ item: 'px-4 basis-1/3' }">
-
+                    :ui="uiCarousel">
                     <div
                         class="bg-neutral-900 p-8 rounded-sm border border-neutral-800 h-full flex flex-col min-h-[250px]">
                         <!-- Rating -->
@@ -39,6 +38,15 @@
     </section>
 </template>
 <script setup lang="ts">
+const uiCarousel = {
+    item: 'px-4 basis-full lg:basis-1/3',
+    dots: 'absolute inset-x-0 -bottom-7 flex flex-wrap items-center justify-center gap-5',
+    dot: [
+        'cursor-pointer size-1.5 bg-muted rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-primary',
+        'transition',
+        'data-[state=active]:bg-yellow-500'
+    ]
+}
 const testimonials = [
     {
         name: "Sarah Jenkins",

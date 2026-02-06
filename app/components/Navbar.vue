@@ -35,7 +35,7 @@
                 <a href="#heritage" class="text-neutral-300 hover:text-white font-medium text-sm tracking-widest uppercase transition-colors">
                     Heritage
                 </a>
-                <a ref="#instructor" class="text-neutral-300 hover:text-white font-medium text-sm tracking-widest uppercase transition-colors">
+                <a href="#instructor" class="text-neutral-300 hover:text-white font-medium text-sm tracking-widest uppercase transition-colors">
                     Instructor
                 </a>
                 <a href="#enroll" class="bg-yellow-500 hover:bg-yellow-400 text-black px-6 py-2 rounded-sm font-bold uppercase tracking-wider text-sm transition-all hover:shadow-[0_0_15px_rgba(234,179,8,0.5)]">

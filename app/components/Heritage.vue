@@ -1,6 +1,6 @@
 <template>
     <section id="heritage" class="py-24 bg-neutral-950 relative overflow-hidden">
-        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/wood-pattern.png')] opacity-20 mix-blend-overlay pointer-events-none">
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/wood-pattern.png')] opacity-60 mix-blend-overlay pointer-events-none">
         </div>
         <div class="container mx-auto px-4 md:px-8 relative z-10">
             <div class="grid lg:grid-cols-12 gap-12 items-center">
@@ -8,7 +8,7 @@
                     <div class="absolute -inset-4 border-2 border-yellow-500/30 rounded-sm translate-x-2 translate-y-2 transition-transform group-hover:translate-x-1 group-hover:translate-y-1 duration-500"></div>
                     <div class="relative overflow-hidden rounded-sm sepia-[.3] contrast-125 hover:sepia-0 transition-all duration-700">
                         <img src="https://images.unsplash.com/photo-1661153803116-12622590e75f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;q=80&amp;w=1080" alt="Filipino History" class="w-full h-auto object-cover">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        <div class="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
                         <div class="absolute bottom-4 left-4">
                             <p class="text-yellow-500 font-serif italic text-sm">
                                 Lapu-Lapu, the first Filipino hero
