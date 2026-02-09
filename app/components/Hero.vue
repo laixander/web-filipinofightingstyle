@@ -1,7 +1,7 @@
 <template>
     <section class="relative h-screen min-h-[800px] flex items-center justify-center overflow-hidden bg-neutral-950">
         <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1564452879279-03d854bd2401?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;q=80&amp;w=1920" alt="Arnis Stick Fighting" class="w-full h-full object-cover opacity-60">
+            <img src="https://plus.unsplash.com/premium_photo-1664300941595-5458b1cbf98e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;q=80&amp;w=1920" alt="Arnis Stick Fighting" class="w-full h-full object-cover opacity-60">
             <div class="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/70 to-neutral-950/40"></div>
             <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-overlay">
             </div>
